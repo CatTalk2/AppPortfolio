@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="zy.com.appportfolio.MainActivity">
+
+    <TextView
+        android:text="My Nanodegree Apps!"
+        android:textColor="#2E3D49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/btn_movie"
+        android:textColor="#ffffff"
+        android:text="Popular Movies"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#2E3D49"/>
+
+    <Button
+        android:id="@+id/btn_stock"
+        android:textColor="#ffffff"
+        android:text="stock hawk"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#2E3D49"/>
+
+    <Button
+        android:id="@+id/btn_build_big"
+        android:textColor="#ffffff"
+        android:text="build it bigger"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#2E3D49"/>
+
+    <Button
+        android:id="@+id/btn_material"
+        android:textColor="#ffffff"
+        android:text="make your app material"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#2E3D49"/>
+
+    <Button
+        android:id="@+id/btn_go"
+        android:text="go ubiquitous"
+        android:textColor="#ffffff"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#2E3D49"/>
+
+    <Button
+        android:id="@+id/btn_capstone"
+        android:text="capstone"
+        android:textColor="#ffffff"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#2E3D49"/>
+
+</LinearLayout>
